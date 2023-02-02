@@ -13,6 +13,8 @@
 		C0134A57298BD7D5001A47D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0134A55298BD7D5001A47D9 /* Main.storyboard */; };
 		C0134A59298BD7D6001A47D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0134A58298BD7D6001A47D9 /* Assets.xcassets */; };
 		C0134A5C298BD7D6001A47D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0134A5A298BD7D6001A47D9 /* LaunchScreen.storyboard */; };
+		C0134A64298BDDBC001A47D9 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0134A63298BDDBC001A47D9 /* DetailsViewController.swift */; };
+		C0134A66298BE487001A47D9 /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0134A65298BE487001A47D9 /* DataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C0134A58298BD7D6001A47D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0134A5B298BD7D6001A47D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0134A5D298BD7D6001A47D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0134A63298BDDBC001A47D9 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C0134A65298BE487001A47D9 /* DataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C0134A58298BD7D6001A47D9 /* Assets.xcassets */,
 				C0134A5A298BD7D6001A47D9 /* LaunchScreen.storyboard */,
 				C0134A5D298BD7D6001A47D9 /* Info.plist */,
+				C0134A63298BDDBC001A47D9 /* DetailsViewController.swift */,
+				C0134A65298BE487001A47D9 /* DataClass.swift */,
 			);
 			path = RickAndMortyBook;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				C0134A54298BD7D5001A47D9 /* ViewController.swift in Sources */,
 				C0134A50298BD7D5001A47D9 /* AppDelegate.swift in Sources */,
+				C0134A66298BE487001A47D9 /* DataClass.swift in Sources */,
 				C0134A52298BD7D5001A47D9 /* SceneDelegate.swift in Sources */,
+				C0134A64298BDDBC001A47D9 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
